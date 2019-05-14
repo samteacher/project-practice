@@ -1,0 +1,22 @@
+
+spring:
+  #redis¶°¸s
+  redis:
+    database: 0
+    # RedisªA‰U¾¹¦a§}
+    host: 127.0.0.1
+    # RedisªA‰U¾¹?±µºÝ¤f
+    port: 6379
+    # RedisªA‰U¾¹?±µ±K?¡]Àq??ªÅ¡^
+    password:
+    # ?±µ¦À¤¤³Ì¤jªÅ??¡AÀq?¬O 8 ¡A¦pªG?¦³¯S?­n¨D¡A¥i¥H¤£°t¸m¡C
+    maxactive: 20
+    maxwait: -1
+    maxidle: 8
+    minidle: 0
+    timeout: 30000
+server:
+  port: 8083
+
+
+
