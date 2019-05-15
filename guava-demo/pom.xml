@@ -28,11 +28,17 @@
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>2.0.1</version>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.1.7.RELEASE</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
+            <version>8.0.16</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -50,6 +56,17 @@
             <artifactId>guava</artifactId>
             <version>23.0</version>
         </dependency>
+        <!-- Spring boot Cache-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>4.3.7.RELEASE</version>
+        </dependency>
+
     </dependencies>
 
     <build>

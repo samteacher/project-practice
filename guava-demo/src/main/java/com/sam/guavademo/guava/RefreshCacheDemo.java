@@ -26,8 +26,8 @@ public class RefreshCacheDemo {
             .maximumSize(10)
             .removalListener(new RemovalListener<String, String>() {
                 @Override
-                public void onRemoval(RemovalNotification removalNotification) {
-                    System.out.println("移除：" + removalNotification.getKey());
+                public void onRemoval(RemovalNotification notification) {
+                    System.out.println("移除：" + notification.getKey());
                 }
             })
             .build(new CacheLoader<String, String>() {
@@ -47,6 +47,15 @@ public class RefreshCacheDemo {
         @Override
         public void run() {
             System.out.println("begin refresh------------");
+
+            /**
+             * asMap() 包含了所有现在导入缓存中的键值对
+             * cache.asMap().keySet() 包含了所有导入的key
+             *
+             * cache.asMap()包含当前所有加载到缓存的项。因此相应地，cache.asMap().keySet()包含当前所有已加载键;
+             * asMap().get(key)实质上等同于 cache.getIfPresent(key),而且不会引起缓存项的加载。这和 Map 的语义约定一致。
+             *
+             */
             Set<String> keys = cache.asMap().keySet();
             for (String key : keys) {
                 cache.refresh(key);

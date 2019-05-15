@@ -3,13 +3,7 @@ package com.sam.guavademo.guava;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
-import com.sun.javaws.CacheUtil;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -98,6 +92,10 @@ public class DeleteCacheDemo {
             System.out.println(cache.get("n"));
             System.out.println(cache.get("s"));
 
+            /**
+             * cleanUp是清空过期的缓存
+             * cache.invalidateAll()才是清空所有缓存
+             */
             // 清空缓存
 //            cache.cleanUp();
 //            System.out.println("删除缓存之后：" + cache.getIfPresent("j"));

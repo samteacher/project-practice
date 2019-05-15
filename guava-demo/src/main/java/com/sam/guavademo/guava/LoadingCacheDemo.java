@@ -13,6 +13,9 @@ import java.util.concurrent.TimeUnit;
  * 创建Guava cache的两种创建方式
  * 1.CacheLoader  在构建cache对象的时候定义一个CacheLoader来获取数据，在缓存不存在的时候能够自动加载数据到缓存中
  * 2.Callable callback  这个方法返回缓存中相应的值，如果末获取到缓存值则调用Callable方法。这个方法简便实现了“如果有缓存则返回，否则读取、缓存、然后返回”的模式
+ *
+ * cleanUp是清空过期的缓存
+ * cache.invalidateAll()才是清空所有缓存
  */
 public class LoadingCacheDemo {
 

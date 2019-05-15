@@ -8,12 +8,16 @@ import java.util.concurrent.ExecutionException;
 
 /**
  * @author yuqiufu
+ * @since 2019-05-15
  * <p>
  * Guava Cache简单说就是一个支持LRU的Concurrent-HashMap，它没有Ehcache那么多的特性，
  * 只是提供了增、删、改、查、刷新规则和时效规则设定等最基本的元素，同时Guava cache极度简洁又能满足大部分人的要求
  */
 public class CallableCacheDemo {
 
+    /**
+     * Callable
+     */
     public static void main(String[] args) throws ExecutionException {
 
         // 初始化
@@ -34,7 +38,19 @@ public class CallableCacheDemo {
                 return strProValue;
             }
         });
-
         System.out.println("return value: " + resultVal);
+
+
+        // 获取某个key时，在Cache.get中单独为其指定load方法
+        resultVal = cache.get("peida", new Callable<String>() {
+            @Override
+            public String call() {
+                String strProValue = "hello " + "peida" + "!";
+                return strProValue;
+            }
+        });
+        System.out.println("return value: " + resultVal);
+
     }
+
 }
