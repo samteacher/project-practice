@@ -19,8 +19,8 @@ public class RefreshCacheDemo {
 
     /**
      * 移除监听器
-     * 通过CacheBuilder.removalListener(RemovalListener)，你可以声明一个监听器，以便缓存项被移除时做一些额外操作。缓存项被移除时，
-     * RemovalListener会获取移除通知[RemovalNotification]，其中包含移除原因[RemovalCause]、键和值。
+     * 通过CacheBuilder.removalListener(RemovalListener)，你可以声明一个监听器，以便缓存项被移除时做一些额外操作。
+     * 缓存项被移除时，RemovalListener会获取移除通知[RemovalNotification]，其中包含移除原因[RemovalCause]、键和值。
      */
     private static LoadingCache<String, String> cache = CacheBuilder.newBuilder()
             .maximumSize(10)

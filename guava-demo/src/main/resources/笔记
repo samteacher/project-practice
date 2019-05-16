@@ -1,0 +1,10 @@
+Guava是Google的一个开源类库，丰富了JDK的API，而且使用起来很方便
+
+Guava-Collect
+guava-io
+guava-objects
+guava predicate
+guava之 joiner & splitter
+guava - eventbus(事件总线)
+
+Guava 源码分析（Cache 原理）https://cloud.tencent.com/developer/article/1408123

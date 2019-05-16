@@ -1,5 +1,6 @@
 package com.sam.guavademo.test;
 
+import com.google.common.base.Joiner;
 import com.google.common.base.Optional;
 
 /**
@@ -8,6 +9,11 @@ import com.google.common.base.Optional;
 public class Test {
 
     public static void main(String[] args) {
+
+        // Joiner 连接器
+        Joiner joiner = Joiner.on("-").skipNulls();
+        System.out.println(joiner.join("Harry", "redis", "Ron", "Hermione"));
+
         Integer value1 = null;
         Integer value2 = 10;
 
