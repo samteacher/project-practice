@@ -1,0 +1,16 @@
+spring:
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:
+    maxactive: 20
+    maxwait: -1
+    maxidle: 8
+    minidle: 0
+    timeout: 30000
+server:
+  port: 8084
+
+
+
