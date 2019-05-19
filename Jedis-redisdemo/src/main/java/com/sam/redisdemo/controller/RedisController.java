@@ -130,4 +130,22 @@ public class RedisController {
         return redisService.hGet(key);
     }
 
+    /**
+     * 根据key删除list左边第一个元素
+     *
+     * @param key
+     * @return
+     */
+    @GetMapping("lpopList")
+    public String lpopList(String key) {
+        redisService.lpopList(key);
+        return "删除成功";
+    }
+
+    @GetMapping("/Rset")
+    public Object[] rangeSet(String keyName, String key){
+        // ["python","node","java","angular"]
+        return redisService.rangeSet(keyName, key);
+    }
+
 }

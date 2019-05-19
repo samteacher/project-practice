@@ -13,10 +13,26 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Administrator
+ * @author yuqiufu
+ * @since 2019-05-18
  */
 public class RedisService {
 
+    /**
+     * 【RedisTemplate中定义了五种数据结构操作】：
+     * （1）redisTemplate.opsForValue(); //操作字符串；
+     * （2）redisTemplate.opsForHash(); //操作hash；
+     * （3）redisTemplate.opsForList();//操作list；
+     * （4）redisTemplate.opsForSet();//操作set；
+     * （5）redisTemplate.opsForZSet();//操作有序set；
+     * <p>
+     * 【ReidsTemplate中的五种结构与java对比】：
+     * （1）String：等同于java中的，Map<String,String>。
+     * （2）list：等同于java中的Map<String,List<String>>。
+     * （3）set：等同于java中的Map<String,Set<String>>。
+     * （4）sort_set：可排序的set。
+     * （5）hash：等同于java中的：`Map<String,Map<String,String>>。
+     */
     private RedisTemplate redisTemplate;
 
     public RedisService(RedisTemplate redisTemplate) {
@@ -41,6 +57,37 @@ public class RedisService {
         }
 
         return flag;
+    }
+
+    /**
+     * 根据key删除list左边第一个元素
+     *
+     * @param key
+     */
+    public void lpopList(String key) {
+        this.redisTemplate.opsForList().leftPop(key);
+    }
+
+    /**
+     * 根据key,起始位置便利set
+     *
+     * @param key
+     * @param start
+     * @param end
+     */
+    public void rangeZset(String key, long start, long end) {
+        redisTemplate.opsForZSet().range(key, start, end);
+    }
+
+    /**
+     * 根据set名称和key遍历所有元素
+     *
+     * @param key
+     * @param key1
+     */
+    public Object[] rangeSet(String key, String key1) {
+        Set<String> set = redisTemplate.opsForSet().union(key, key1);
+        return set.toArray();
     }
 
     /**
