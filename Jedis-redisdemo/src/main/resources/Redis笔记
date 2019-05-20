@@ -78,3 +78,5 @@ ZRANGEBYSCORE key 0 1000 获取参数
 
 
 Redis持久化机制
+1、AOF模式下添加的数据，切换到RDB模式依然存在
+2、RDB模式下添加的数据，切换到AOF模式，数据丢失
