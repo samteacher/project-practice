@@ -75,3 +75,6 @@ zadd key 0 message2
 zadd key 0 message3
 zadd key 0 message4
 ZRANGEBYSCORE key 0 1000 获取参数
+
+
+Redis持久化机制
