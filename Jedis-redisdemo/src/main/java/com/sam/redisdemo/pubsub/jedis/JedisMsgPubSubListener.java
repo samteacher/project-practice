@@ -10,9 +10,9 @@ import redis.clients.jedis.JedisPubSub;
  * @author yuqiufu
  * @since 2019-05-20
  */
-public class RedisMsgPubSubListener extends JedisPubSub {
+public class JedisMsgPubSubListener extends JedisPubSub {
 
-    private Logger logger = LoggerFactory.getLogger(RedisMsgPubSubListener.class);
+    private Logger logger = LoggerFactory.getLogger(JedisMsgPubSubListener.class);
 
     /**
      * 退订频道

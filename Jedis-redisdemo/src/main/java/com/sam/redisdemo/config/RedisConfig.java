@@ -22,7 +22,7 @@ public class RedisConfig {
     @Bean
     @ConfigurationProperties(prefix = "spring.redis")
     protected RedisConfigVO redisConfigVO() {
-        return new com.sam.redisdemo.config.RedisConfigVO();
+        return new RedisConfigVO();
     }
 
     @Bean

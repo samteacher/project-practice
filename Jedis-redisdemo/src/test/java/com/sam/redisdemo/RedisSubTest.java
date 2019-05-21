@@ -1,6 +1,6 @@
 package com.sam.redisdemo;
 
-import com.sam.redisdemo.pubsub.jedis.RedisMsgPubSubListener;
+import com.sam.redisdemo.pubsub.jedis.JedisMsgPubSubListener;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -20,7 +20,7 @@ public class RedisSubTest {
             jr = new Jedis("127.0.0.1", 6379, 0);
             jr.auth("samkeke");
 
-            RedisMsgPubSubListener sp = new RedisMsgPubSubListener();
+            JedisMsgPubSubListener sp = new JedisMsgPubSubListener();
 
             // jr客户端配置监听两个channel
             jr.subscribe(sp, "news.share", "news.blog");
