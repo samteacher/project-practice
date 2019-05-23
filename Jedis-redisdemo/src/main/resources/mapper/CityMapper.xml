@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sam.redis.city.dao.CityMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.sam.redis.city.entity.City">
+        <id column="id" property="id"/>
+        <result column="province_id" property="provinceId"/>
+        <result column="city_name" property="cityName"/>
+        <result column="description" property="description"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+       id, province_id, city_name, description
+    </sql>
+
+    <select id="findCityAll" resultMap="BaseResultMap">
+        select id, province_id, city_name, description from city
+    </select>
+
+    <select id="getCityId" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select id, province_id, city_name, description from city where id = #{id}
+    </select>
+
+    <update id="updateCity" parameterType="com.sam.redis.city.entity.City">
+        UPDATE city
+        <set>
+            <if test="provinceId != null">
+                province_id = #{provinceId},
+            </if>
+            <if test="cityName != null and cityName != ''">
+                city_name = #{cityName},
+            </if>
+            <if test="description != null and description != ''">
+                description = #{description},
+            </if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteCity" parameterType="java.lang.Integer"></delete>
+
+</mapper>

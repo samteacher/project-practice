@@ -9,8 +9,27 @@ spring:
     maxidle: 8
     minidle: 0
     timeout: 30000
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+
 server:
   port: 8084
+
+mybatis:
+  mapperLocations: classpath*:mapper/*Mapper.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+#日志文件配置
+#输出到控制台 Console 或者文件 File (大小写不敏感)
+#默认的日志级别level.root DEBUG
+logging:
+  appender: Console
+  level:
+    root: INFO
 
 
 
