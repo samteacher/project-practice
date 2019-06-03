@@ -5,5 +5,5 @@
   <li>RocketMQ知识总结</li>
   <li>Elasticsearch知识总结</li>
 </ol>
-<p>![avatar](https://github.com/samteacher/project-practice/blob/master/Learning.png?raw=true)</p>
+<p>![avatar](https://raw.githubusercontent.com/samteacher/project-practice/master/Learning.png)</p>
 
