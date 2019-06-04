@@ -1,0 +1,6 @@
+SpringBoot 提供了两种方式操作elasticsearch，Jest 和 SpringData。
+
+Jest 操作 elasticsearch
+Jest是ElasticSearch的Java HTTP Rest客户端。
+
+ElasticSearch已经有一个Java API，ElasticSearch也在内部使用它，但是Jest填补了空白，它是ElasticSearch Http Rest接口缺少的客户端。
