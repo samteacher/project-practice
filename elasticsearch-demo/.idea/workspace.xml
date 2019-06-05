@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="792f5ffb-db93-4573-a829-21e2a9c6c99e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/config/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/config/InitElasticSearchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springes-jest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springes-jest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/Article.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springes-jest/src/test/java/com/sam/springesjest/SpringesJestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springes-jest/src/test/java/com/sam/springesjest/SpringesJestApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springes-springdata/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springes-springdata/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/BookRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springes-springdata/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springes-springdata/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springes-springdata/src/test/java/com/sam/springesspringdata/SpringesSpringdataApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springes-springdata/src/test/java/com/sam/springesspringdata/SpringesSpringdataApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/springes-jest/target/" />
     <ignored path="$PROJECT_DIR$/springes-springdata/target/" />
@@ -50,80 +40,47 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="562" />
+          <entry key="java" value="1001" />
           <entry key="properties" value="122" />
-          <entry key="txt" value="39" />
-          <entry key="xml" value="44" />
+          <entry key="txt" value="60" />
+          <entry key="xml" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="562" />
-          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="JAVA" value="1001" />
+          <entry key="PLAIN_TEXT" value="60" />
           <entry key="Properties" value="122" />
-          <entry key="XML" value="44" />
+          <entry key="XML" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="11" />
+          <entry key="class" value="12" />
           <entry key="iml" value="1" />
-          <entry key="java" value="66" />
+          <entry key="java" value="82" />
           <entry key="properties" value="16" />
-          <entry key="xml" value="13" />
+          <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="11" />
+          <entry key="CLASS" value="12" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="66" />
+          <entry key="JAVA" value="82" />
           <entry key="Properties" value="16" />
-          <entry key="XML" value="13" />
+          <entry key="XML" value="14" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/controller/EmployeeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://E:/my_maven_local_repository/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+        <entry file="file://$PROJECT_DIR$/springes-jest/src/test/java/com/sam/springesjest/SpringesJestApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springes-springdata/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="52" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/config/EmployeeRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="154" column="37" lean-forward="true" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -152,6 +109,9 @@
       <find>elasticsearch</find>
       <find>transport</find>
       <find>spring-data-elasticSearch</find>
+      <find>io.searchbox</find>
+      <find>List&lt;Suggest.Suggestion&gt;</find>
+      <find>public</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,13 +123,11 @@
         <option value="$PROJECT_DIR$/springes-jest/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/Book.java" />
         <option value="$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/BookRepository.java" />
-        <option value="$PROJECT_DIR$/springes-jest/src/test/java/com/sam/springesjest/SpringesJestApplicationTests.java" />
         <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/ArticleService.java" />
         <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/MysqlJdbcFactory.java" />
         <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/EsJestClient.java" />
         <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/EsUtil.java" />
         <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/TransportClient.java" />
-        <option value="$PROJECT_DIR$/springes-jest/pom.xml" />
         <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/Article.java" />
         <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/JestExample.java" />
         <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/jest/Item.java" />
@@ -183,6 +141,15 @@
         <option value="$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/controller/EmployeeController.java" />
         <option value="$PROJECT_DIR$/springes-springdata/pom.xml" />
         <option value="$PROJECT_DIR$/springes-springdata/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springes-jest/pom.xml" />
+        <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/service/ElasticSearchDaoImpl.java" />
+        <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/dao/ElasticSearchDao.java" />
+        <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/service/ESService.java" />
+        <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/config/InitElasticSearchConfig.java" />
+        <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/entity/ItemEntity.java" />
+        <option value="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/entity/User.java" />
+        <option value="$PROJECT_DIR$/springes-jest/src/test/java/com/sam/springesjest/SpringesJestApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -248,124 +215,154 @@
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springesspringdata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springesspringdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springesjest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springesjest" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springesspringdata" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springesspringdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springesjest" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springesjest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: io.searchbox:jest-common:6.3.1" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.1.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: io.searchbox:jest-common:6.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="jest-common-6.3.1.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.1.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: io.searchbox:jest-common:6.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="jest-common-6.3.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="searchbox" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.1.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: io.searchbox:jest-common:6.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="jest-common-6.3.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="searchbox" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.1.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.1.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="method" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="requests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -381,7 +378,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559725261165" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559731367394" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="E:/elasticSearch-project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -406,8 +403,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringesSpringdataApplication">
-    <configuration name="EsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpringesJestApplicationTests.serach3">
+    <configuration name="SpringesJestApplicationTests.getIndexMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springes-jest" />
       <extension name="coverage">
         <pattern>
@@ -416,12 +413,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sam.springesjest" />
-      <option name="MAIN_CLASS_NAME" value="com.sam.springesjest.EsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sam.springesjest.SpringesJestApplicationTests" />
+      <option name="METHOD_NAME" value="getIndexMapping" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EsTest.testCreateIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringesJestApplicationTests.insertBatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springes-jest" />
       <extension name="coverage">
         <pattern>
@@ -430,8 +429,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sam.springesjest" />
-      <option name="MAIN_CLASS_NAME" value="com.sam.springesjest.EsTest" />
-      <option name="METHOD_NAME" value="testCreateIndex" />
+      <option name="MAIN_CLASS_NAME" value="com.sam.springesjest.SpringesJestApplicationTests" />
+      <option name="METHOD_NAME" value="insertBatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringesJestApplicationTests.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springes-jest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sam.springesjest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sam.springesjest" />
+      <option name="MAIN_CLASS_NAME" value="com.sam.springesjest.SpringesJestApplicationTests" />
+      <option name="METHOD_NAME" value="search" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringesJestApplicationTests.serach1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springes-jest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sam.springesjest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sam.springesjest" />
+      <option name="MAIN_CLASS_NAME" value="com.sam.springesjest.SpringesJestApplicationTests" />
+      <option name="METHOD_NAME" value="serach1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringesJestApplicationTests.serach3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springes-jest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sam.springesjest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sam.springesjest" />
+      <option name="MAIN_CLASS_NAME" value="com.sam.springesjest.SpringesJestApplicationTests" />
+      <option name="METHOD_NAME" value="serach3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -454,13 +501,19 @@
     <list>
       <item itemvalue="Spring Boot.SpringesJestApplication" />
       <item itemvalue="Spring Boot.SpringesSpringdataApplication" />
-      <item itemvalue="JUnit.EsTest" />
-      <item itemvalue="JUnit.EsTest.testCreateIndex" />
+      <item itemvalue="JUnit.SpringesJestApplicationTests.getIndexMapping" />
+      <item itemvalue="JUnit.SpringesJestApplicationTests.insertBatch" />
+      <item itemvalue="JUnit.SpringesJestApplicationTests.search" />
+      <item itemvalue="JUnit.SpringesJestApplicationTests.serach1" />
+      <item itemvalue="JUnit.SpringesJestApplicationTests.serach3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EsTest.testCreateIndex" />
-        <item itemvalue="JUnit.EsTest" />
+        <item itemvalue="JUnit.SpringesJestApplicationTests.serach3" />
+        <item itemvalue="JUnit.SpringesJestApplicationTests.serach1" />
+        <item itemvalue="JUnit.SpringesJestApplicationTests.search" />
+        <item itemvalue="JUnit.SpringesJestApplicationTests.insertBatch" />
+        <item itemvalue="JUnit.SpringesJestApplicationTests.getIndexMapping" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +527,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559701770888</updated>
-      <workItem from="1559701772291" duration="17050000" />
+      <workItem from="1559701772291" duration="21060000" />
     </task>
     <task id="LOCAL-00001" summary="修改结构">
       <created>1559701992104</created>
@@ -490,43 +543,50 @@
       <option name="project" value="LOCAL" />
       <updated>1559703355222</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="练习spring data 操作elasticsearch，卡在None of the configured nodes are available问题上">
+      <created>1559725316020</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559725316020</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringesSpringdataApplicationTests_createIndex2 - 2019.06.05 at 10h 49m 11s.xml">
-      <configuration name="SpringesSpringdataApplicationTests.createIndex2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringesSpringdataApplicationTests_createIndex2 - 2019.06.05 at 10h 59m 29s.xml">
-      <configuration name="SpringesSpringdataApplicationTests.createIndex2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringesSpringdataApplicationTests_createIndex2 - 2019.06.05 at 11h 32m 41s.xml">
-      <configuration name="SpringesSpringdataApplicationTests.createIndex2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EsTest_init - 2019.06.05 at 11h 46m 53s.xml">
-      <configuration name="EsTest.init" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EsTest_getMappingTest - 2019.06.05 at 11h 47m 15s.xml">
-      <configuration name="EsTest.getMappingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EsTest_searchType - 2019.06.05 at 11h 47m 48s.xml">
-      <configuration name="EsTest.searchType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EsTest - 2019.06.05 at 15h 01m 00s.xml">
-      <configuration name="EsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EsTest - 2019.06.05 at 15h 01m 26s.xml">
-      <configuration name="EsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EsTest_testCreateIndex - 2019.06.05 at 15h 01m 47s.xml">
       <configuration name="EsTest.testCreateIndex" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EsTest_testCreateIndex - 2019.06.05 at 15h 02m 48s.xml">
       <configuration name="EsTest.testCreateIndex" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpringesJestApplicationTests_createIndex - 2019.06.05 at 18h 05m 04s.xml">
+      <configuration name="SpringesJestApplicationTests.createIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringesJestApplicationTests_insert - 2019.06.05 at 18h 05m 42s.xml">
+      <configuration name="SpringesJestApplicationTests.insert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringesJestApplicationTests_getIndexMapping - 2019.06.05 at 18h 08m 40s.xml">
+      <configuration name="SpringesJestApplicationTests.getIndexMapping" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringesJestApplicationTests_getIndexMapping - 2019.06.05 at 18h 12m 40s.xml">
+      <configuration name="SpringesJestApplicationTests.getIndexMapping" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringesJestApplicationTests_insertBatch - 2019.06.05 at 18h 13m 05s.xml">
+      <configuration name="SpringesJestApplicationTests.insertBatch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringesJestApplicationTests_insertBatch - 2019.06.05 at 18h 13m 47s.xml">
+      <configuration name="SpringesJestApplicationTests.insertBatch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringesJestApplicationTests_search - 2019.06.05 at 18h 14m 11s.xml">
+      <configuration name="SpringesJestApplicationTests.search" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringesJestApplicationTests_serach1 - 2019.06.05 at 18h 14m 55s.xml">
+      <configuration name="SpringesJestApplicationTests.serach1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17050000" />
+    <option name="totallyTimeSpent" value="21060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -551,13 +611,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42299348" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5195228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" visible="true" weight="0.2468017" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.2468017" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -611,7 +671,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改结构" />
     <MESSAGE value="添加jest和spring data 操作elasticsearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加jest和spring data 操作elasticsearch" />
+    <MESSAGE value="练习spring data 操作elasticsearch，卡在None of the configured nodes are available问题上" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习spring data 操作elasticsearch，卡在None of the configured nodes are available问题上" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -628,13 +689,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/springes-jest/springes-jest.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://E:/my_maven_local_repository/io/searchbox/jest-common/6.3.1/jest-common-6.3.1.jar!/io/searchbox/client/JestClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/ArticleService.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -717,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springes-jest/src/test/java/com/sam/springesjest/SpringesJestApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/my_maven_local_repository/org/springframework/data/spring-data-elasticsearch/3.1.8.RELEASE/spring-data-elasticsearch-3.1.8.RELEASE.jar!/org/springframework/data/elasticsearch/core/ElasticsearchTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -754,13 +801,6 @@
             <element signature="e#540#541#0" expanded="true" />
             <element signature="e#601#602#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springes-jest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -808,16 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/config/EmployeeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springes-springdata/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -825,10 +855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springes-springdata/src/main/resources/application.properties">
+    <entry file="jar://E:/my_maven_local_repository/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="52" />
+        <state relative-caret-position="198">
+          <caret line="88" column="21" lean-forward="true" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -842,10 +872,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/my_maven_local_repository/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/springes-springdata/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="51">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/config/EmployeeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springes-jest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/service/ElasticSearchDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/dao/ElasticSearchDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/service/ESService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3235#3247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/my_maven_local_repository/io/searchbox/jest-common/6.3.1/jest-common-6.3.1.jar!/io/searchbox/client/JestClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/config/InitElasticSearchConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/my_maven_local_repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/requests/FilterRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springes-jest/src/test/java/com/sam/springesjest/SpringesJestApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="154" column="37" lean-forward="true" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="37" />
         </state>
       </provider>
     </entry>
