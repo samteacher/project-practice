@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/elasticsearch-demo.iml" filepath="$PROJECT_DIR$/.idea/elasticsearch-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springes-jest/springes-jest.iml" filepath="$PROJECT_DIR$/springes-jest/springes-jest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springes-springdata/springes-springdata.iml" filepath="$PROJECT_DIR$/springes-springdata/springes-springdata.iml" />
+    </modules>
+  </component>
+</project>
