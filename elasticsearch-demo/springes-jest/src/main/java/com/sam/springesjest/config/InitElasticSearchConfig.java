@@ -6,7 +6,7 @@ import io.searchbox.client.JestClientFactory;
 import io.searchbox.client.config.HttpClientConfig;
 
 /**
- * 初始化es链接
+ * 初始化ES链接
  *
  * @author yuqiufu
  * @since 2019-06-05
