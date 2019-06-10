@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="792f5ffb-db93-4573-a829-21e2a9c6c99e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/config/InitElasticSearchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/config/InitElasticSearchConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/springes-jest/target/" />
     <ignored path="$PROJECT_DIR$/springes-springdata/target/" />
@@ -31,10 +30,11 @@
     <session id="1638623272">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -57,7 +57,7 @@
         <counts>
           <entry key="class" value="12" />
           <entry key="iml" value="1" />
-          <entry key="java" value="90" />
+          <entry key="java" value="91" />
           <entry key="properties" value="16" />
           <entry key="xml" value="14" />
         </counts>
@@ -66,7 +66,7 @@
         <counts>
           <entry key="CLASS" value="12" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="90" />
+          <entry key="JAVA" value="91" />
           <entry key="Properties" value="16" />
           <entry key="XML" value="14" />
         </counts>
@@ -91,7 +91,19 @@
         <entry file="file://$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/entity/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/controller/EmployeeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,12 +112,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/controller/EmployeeController.java">
+        <entry file="file://$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/config/InitElasticSearchConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="289">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -241,66 +256,56 @@
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springesspringdata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springesspringdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springesjest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springesjest" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springes-jest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springesspringdata" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elasticsearch-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springes-springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springesspringdata" type="462c0819:PsiDirectoryNode" />
+              <item name="springesjest" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -318,7 +323,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560130838604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560131215026" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="E:/elasticSearch-project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -469,6 +474,7 @@
       <updated>1559701770888</updated>
       <workItem from="1559701772291" duration="22654000" />
       <workItem from="1560130697692" duration="192000" />
+      <workItem from="1560131155419" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="修改结构">
       <created>1559701992104</created>
@@ -498,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559731416543</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="练习Jest操作elasticsearch">
+      <created>1560131225415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560131225415</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -534,13 +547,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22846000" />
+    <option name="totallyTimeSpent" value="22926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -722,20 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/config/InitElasticSearchConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/SpringesSpringdataApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -763,7 +762,7 @@
     <entry file="file://$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/entity/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -772,10 +771,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springes-springdata/src/main/java/com/sam/springesspringdata/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="544">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springes-jest/src/main/java/com/sam/springesjest/config/InitElasticSearchConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
           </folding>
         </state>
       </provider>
