@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans.xsd  
+  http://www.springframework.org/schema/context   
+  http://www.springframework.org/schema/context/spring-context-4.0.xsd
+ ">
+
+	<!-- @Compoment这类型注解的类都是需要被扫描 说白就是：让Spring的ApplicationContext去加载和初始化所有加了注解的类，给实例化 
+		@Repository:数据层的dao @Service:service就是service @Controller:web比如：action和springmvc-controller类 -->
+	<!-- 扫描文件所在dao包 -->
+	<context:component-scan base-package="com.keke.maven.mapper"></context:component-scan>
+	<context:component-scan base-package="com.keke.maven.service"></context:component-scan>
+
+	<!--<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">-->
+		<!--<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>-->
+		<!--<property name="url" value="jdbc:mysql://localhost:3306/tzspring?useUnicode=true&amp;characterEncoding=utf8"></property>-->
+		<!--<property name="username" value="root"></property>-->
+		<!--<property name="password" value="xiaoer"></property>-->
+	<!--</bean>	-->
+	<!---->
+	<!--&lt;!&ndash; springjdbctempte查询模板 &ndash;&gt;-->
+	<!--<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">-->
+		<!--<property name="dataSource" ref="dataSource"></property>-->
+	<!--</bean>-->
+
+</beans>
