@@ -12,16 +12,15 @@ import java.util.List;
  * @since 2019-06-13
  */
 @Repository
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface UserRepository extends JpaRepository<User, Integer> {
 
     /**
      * 将查询直接在相应的接口方法中声明，结构更为清晰，这是Spring data的特有实现
-     * @param lastname
+     *
      * @return
+     * @date 2019-06-14
      */
-    @Query("select u from User u where u.emailAddress = ?1")
-    List<User> findByLastname(String lastname);
-
-    User findByEmailAddress(String emailAddress);
+    @Query(value = "select id,name,age,email,address from user", nativeQuery = true)
+    List<User> findUserList();
 
 }
