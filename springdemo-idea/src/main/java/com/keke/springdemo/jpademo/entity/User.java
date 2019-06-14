@@ -1,6 +1,8 @@
 package com.keke.springdemo.jpademo.entity;
 
 import lombok.Data;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
 
@@ -17,6 +19,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "user")
 @Data
+@Component // 这里加上Component是为是装载Bean，获取到配置文件中的元素
 public class User {
 
     @Id
@@ -30,6 +33,12 @@ public class User {
     private String email;
 
     private String address;
+
+    @Value("${spring.datasource.username}")
+    private String username;
+
+    @Value("${spring.datasource.url}")
+    private String url;
 
 }
 
