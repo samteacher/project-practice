@@ -26,8 +26,8 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
-    @Autowired
-    User userBean;
+//    @Autowired
+//    User userBean;
 
     /**
      * 使用@Query注解查询所有
@@ -97,9 +97,9 @@ public class UserController {
         return userRepository.save(user);
     }
 
-    @GetMapping("/value")
-    public String findValue() {
-        return userBean.getUsername() + "==============" + userBean.getUrl();
-    }
+//    @GetMapping("/value")
+//    public String findValue() {
+//        return userBean.getUsername() + "==============" + userBean.getUrl();
+//    }
 
 }

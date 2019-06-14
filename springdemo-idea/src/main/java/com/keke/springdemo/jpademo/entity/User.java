@@ -19,7 +19,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "user")
 @Data
-@Component // 这里加上Component是为是装载Bean，获取到配置文件中的元素
+//@Component // 这里加上Component是为是装载Bean，获取到配置文件中的元素
 public class User {
 
     @Id
@@ -34,11 +34,11 @@ public class User {
 
     private String address;
 
-    @Value("${spring.datasource.username}")
-    private String username;
-
-    @Value("${spring.datasource.url}")
-    private String url;
+//    @Value("${spring.datasource.username}")
+//    private String username;
+//
+//    @Value("${spring.datasource.url}")
+//    private String url;
 
 }
 
