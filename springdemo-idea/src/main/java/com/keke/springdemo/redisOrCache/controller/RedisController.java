@@ -16,12 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RedisController {
 
-    /**
-     * 注： @Cacheable：标记在一个方法上，也可以标记在一个类上。主要是缓存标注对象的返回结果，
-     * 标注在方法上缓存该方法的返回值，标注在类上，缓存该类所有的方法返回值。
-     * 参数： value缓存名、 key缓存键值、 condition满足缓存条件、unless否决缓存条件
-     */
-
     @Autowired
     RedisTemplate redisTemplate;
 
