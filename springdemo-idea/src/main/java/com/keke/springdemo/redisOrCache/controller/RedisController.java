@@ -2,6 +2,7 @@ package com.keke.springdemo.redisOrCache.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.transaction.annotation.Transactional;
@@ -32,6 +33,7 @@ public class RedisController {
      * @return
      * @date 2019-06-15
      */
+    @CachePut(value = "people", key = "#value")
     @Transactional(rollbackFor = Exception.class)
     @GetMapping("/set")
     public String set(String key, String value) {
@@ -46,7 +48,7 @@ public class RedisController {
      * @return
      * @date 2019-06-15
      */
-    @Cacheable(value = "admin", key = "#id")
+    @Cacheable(value = "admin", key = "#key")
     @GetMapping("/get")
     public String get(String key) {
         return "key=" + key + ",value=" + redisTemplate.opsForValue().get(key);
@@ -58,7 +60,7 @@ public class RedisController {
      * @param key
      * @date 2019-06-15
      */
-    @CacheEvict(value = "admin", key = "#user.id")
+    @CacheEvict(value = "admin", key = "#key")
     @GetMapping("/del")
     public void delete(String key) {
         redisTemplate.delete(key);
