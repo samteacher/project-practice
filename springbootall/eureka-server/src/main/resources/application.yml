@@ -1,0 +1,22 @@
+# 服务注册中心端口号
+server:
+  port: 1110
+
+eureka:
+  instance:
+    # 服务注册中心实例的主机名
+    hostname: localhost
+    appname: 注册中心
+  client:
+    # 是否向服务注册中心注册自己
+    register-with-eureka: false
+    # 是否检索服务
+    fetch-registry: true
+    serviceUrl:
+      # 就比较重要了，是设置eureka服务器所在的地址，查询服务和注册服务都需要依赖这个地址。
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    # 在调试时关闭eureka注册中心的保护机制
+    enable-self-preservation: false
+    # 该配置可以修改检查失效服务的时间，每隔10s检查失效服务，并移除列表 (Spring Cloud默认该配置是 60s)
+    eviction-interval-timer-in-ms: 100000

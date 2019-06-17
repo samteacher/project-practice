@@ -1,0 +1,21 @@
+# 服务注册中心端口号
+server:
+  port: 1111
+
+eureka:
+  client:
+    serviceUrl:
+      # 注册中心的注册地址
+      defaultZone: http://127.0.0.1:1110/eureka/
+    # 定时的向Eureka服务中心确认，刷新自己的可用的服务列表，修改为5s
+    registry-fetch-interval-seconds: 5
+  instance:
+    # 告知服务端30秒还未收到心跳的话，就将该服务移除列表
+    lease-expiration-duration-in-seconds: 30
+    # 每隔10s发送一次心跳
+    lease-renewal-interval-in-seconds: 10
+
+spring:
+  application:
+    # 服务名称--调用的时候根据名称来调用该服务的方法
+    name: service-provider
