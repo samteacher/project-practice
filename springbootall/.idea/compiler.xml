@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
         <module name="eureka-consumer" />
+        <module name="eureka-zuul" />
         <module name="server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-client" target="1.8" />
       <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-zuul" target="1.8" />
       <module name="server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
