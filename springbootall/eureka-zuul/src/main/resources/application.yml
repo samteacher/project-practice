@@ -14,7 +14,7 @@ zuul:
   routes:
     api-a:
       path: /api-client/**
-      service-id: eureka-client
+      service-id: service-provider
     api-b:
       path: /api-consumer/**
-      service-id: eureka-consumer
+      service-id: service-consumer

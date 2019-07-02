@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2019-06-17
  */
 @RestController
-@RequestMapping("/enr")
 public class EnvirController {
 
     @Autowired

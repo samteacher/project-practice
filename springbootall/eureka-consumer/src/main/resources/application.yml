@@ -5,7 +5,7 @@ eureka:
 
 # 服务注册中心端口号
 server:
-  port: 1113
+  port: 1112
 spring:
   application:
     # 服务名称--调用的时候根据名称来调用该服务的方法

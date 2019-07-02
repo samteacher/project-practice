@@ -15,7 +15,6 @@ import java.util.List;
  * @since 2019-06-17
  */
 @RestController
-@RequestMapping("/consumer")
 public class ConsumerController {
 
     @Autowired
@@ -25,6 +24,11 @@ public class ConsumerController {
     public List<String> getConsumerAll() {
         System.out.println("会员服务正在被消费.......");
         return consumerService.getConsumerAll();
+    }
+
+    @GetMapping("/getConsumerServiceApi")
+    public String getConsumerServiceApi(){
+        return "this is 消费者";
     }
 
 }
