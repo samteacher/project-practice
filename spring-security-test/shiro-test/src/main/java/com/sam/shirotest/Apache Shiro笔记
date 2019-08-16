@@ -1,0 +1,3 @@
+Shiro自定义Realm两种：
+1.IniRealm
+2.jdbcRealm
