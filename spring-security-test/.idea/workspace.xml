@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8002647d-c879-4bcb-afb2-19f304659ba4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/shiro-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/Apache Shiro笔记" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/AuthorizerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/IniRealmTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/main/resources/user.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/target/shiro-test-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/target/shiro-test-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/target/surefire-reports/TEST-com.sam.shirotest.ShiroTestApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/target/surefire-reports/com.sam.shirotest.ShiroTestApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sam/springsecuritytest/SpringSecurityTestApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sam/springsecuritytest/SpringSecurityTestApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/AuthenticationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/AuthenticationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/target/classes/com/sam/shirotest/AuthenticationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/target/classes/com/sam/shirotest/AuthenticationTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="8002647d-c879-4bcb-afb2-19f304659ba4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/shiro-test/target/" />
@@ -39,42 +15,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/AuthenticationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="51" />
-              <folding>
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/IniRealmTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiro-test/src/main/resources/user.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -213,79 +154,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-core-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-core-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-core-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="authz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-core-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="realm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-core-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="subject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-core-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="subject" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -420,7 +288,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565923659818</updated>
       <workItem from="1565923661127" duration="751000" />
-      <workItem from="1565929547483" duration="4020000" />
+      <workItem from="1565929547483" duration="4945000" />
     </task>
     <task id="LOCAL-00001" summary="apache shiro;spring security权限管理项目">
       <created>1565924171296</created>
@@ -436,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565924279494</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加Shiro认证、授权过程代码;添加IniRealm代码">
+      <created>1565933619871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565933619871</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -472,11 +347,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4771000" />
+    <option name="totallyTimeSpent" value="5696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23614073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -520,7 +394,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="apache shiro;spring security权限管理项目" />
     <MESSAGE value="修改权限管理项目结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改权限管理项目结构" />
+    <MESSAGE value="添加Shiro认证、授权过程代码;添加IniRealm代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加Shiro认证、授权过程代码;添加IniRealm代码" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spring-security-test.iml">
@@ -665,6 +540,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/IniRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/AuthenticationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -672,16 +557,6 @@
           <folding>
             <element signature="e#568#569#0" expanded="true" />
             <element signature="e#634#635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/IniRealmTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
