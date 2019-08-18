@@ -40,6 +40,7 @@ public class AuthorizerTest {
         subject.login(token);
         System.out.println("isAuthentcated：" + subject.isAuthenticated());
 
+        // 检查用户是否有这样的角色
         subject.checkRoles("admin", "user");
 
     }

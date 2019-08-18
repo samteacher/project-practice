@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.sam.shirotest.ShiroTestApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.192 s - in com.sam.shirotest.ShiroTestApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.459 s - in com.sam.shirotest.ShiroTestApplicationTests

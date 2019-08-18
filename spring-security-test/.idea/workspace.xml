@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8002647d-c879-4bcb-afb2-19f304659ba4" name="Default Changelist" comment="" />
+    <list default="true" id="8002647d-c879-4bcb-afb2-19f304659ba4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/JDBCRealmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/JDBCRealmTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-test/src/main/resources/datasoure.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/Apache Shiro笔记" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/Apache Shiro笔记" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/AuthorizerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/AuthorizerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/IniRealmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/IniRealmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/resources/user.ini" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/resources/user.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/target/classes/com/sam/shirotest/AuthorizerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/target/classes/com/sam/shirotest/AuthorizerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/target/classes/com/sam/shirotest/IniRealmTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/target/classes/com/sam/shirotest/IniRealmTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/target/classes/user.ini" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/target/classes/user.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/target/shiro-test-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/target/shiro-test-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/target/shiro-test-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/target/shiro-test-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/target/surefire-reports/TEST-com.sam.shirotest.ShiroTestApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/target/surefire-reports/TEST-com.sam.shirotest.ShiroTestApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/target/surefire-reports/com.sam.shirotest.ShiroTestApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/target/surefire-reports/com.sam.shirotest.ShiroTestApplicationTests.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/shiro-test/target/" />
@@ -15,7 +35,35 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/JDBCRealmTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="23" column="48" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-test/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shiro-test/src/main/resources/datasoure.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,6 +81,12 @@
       <find>assertAuthzCheckPossible</find>
       <find>simpleAccountRealm</find>
       <find>authenticate</find>
+      <find>yuqiufu</find>
+      <find>123456</find>
+      <find>AuthenticationToken</find>
+      <find>jdbcRealm</find>
+      <find>user</find>
+      <find>users</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -47,7 +101,10 @@
         <option value="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/AuthorizerTest.java" />
         <option value="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/Apache Shiro笔记" />
         <option value="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/IniRealmTest.java" />
+        <option value="$PROJECT_DIR$/shiro-test/src/main/resources/datasoure.ini" />
         <option value="$PROJECT_DIR$/shiro-test/src/main/resources/user.ini" />
+        <option value="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/JDBCRealmTest02.java" />
+        <option value="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/JDBCRealmTest.java" />
       </list>
     </option>
   </component>
@@ -76,15 +133,6 @@
           <item name="shiro-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-security-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-security-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -103,7 +151,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,10 +201,110 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba:druid:1.1.19" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba:druid:1.1.19" type="70bed36:NamedLibraryElementNode" />
+              <item name="druid-1.1.19.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba:druid:1.1.19" type="70bed36:NamedLibraryElementNode" />
+              <item name="druid-1.1.19.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="druid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba:druid:1.1.19" type="70bed36:NamedLibraryElementNode" />
+              <item name="druid-1.1.19.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="druid" type="462c0819:PsiDirectoryNode" />
+              <item name="pool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.4.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="authc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="realm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="realm" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,6 +324,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sam.shirotest" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -189,40 +341,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IniRealmTest">
-    <configuration name="AuthenticationTest.testAuthenbtication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shiro-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sam.shirotest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sam.shirotest" />
-      <option name="MAIN_CLASS_NAME" value="com.sam.shirotest.AuthenticationTest" />
-      <option name="METHOD_NAME" value="testAuthenbtication" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthorizerTest.testAAuthorizer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shiro-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sam.shirotest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sam.shirotest" />
-      <option name="MAIN_CLASS_NAME" value="com.sam.shirotest.AuthorizerTest" />
-      <option name="METHOD_NAME" value="testAAuthorizer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IniRealmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JDBCRealmTest">
+    <configuration name="IniRealmTest.testAuthorizer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shiro-test" />
       <extension name="coverage">
         <pattern>
@@ -232,13 +352,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sam.shirotest" />
       <option name="MAIN_CLASS_NAME" value="com.sam.shirotest.IniRealmTest" />
-      <option name="METHOD_NAME" value="testAAuthorizer" />
+      <option name="METHOD_NAME" value="testAuthorizer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCRealmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sam.shirotest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sam.shirotest" />
+      <option name="MAIN_CLASS_NAME" value="com.sam.shirotest.JDBCRealmTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IniRealmTest.testAAuthorizer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JDBCRealmTest.testJDBCRealm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shiro-test" />
       <extension name="coverage">
         <pattern>
@@ -247,33 +382,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sam.shirotest" />
-      <option name="MAIN_CLASS_NAME" value="com.sam.shirotest.IniRealmTest" />
-      <option name="METHOD_NAME" value="testAAuthorizer" />
+      <option name="MAIN_CLASS_NAME" value="com.sam.shirotest.JDBCRealmTest" />
+      <option name="METHOD_NAME" value="testJDBCRealm" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShiroTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="shiro-test" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sam.shirotest.ShiroTestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringSecurityTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-security-test" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sam.springsecuritytest.SpringSecurityTestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IniRealmTest" />
-        <item itemvalue="JUnit.IniRealmTest.testAAuthorizer" />
-        <item itemvalue="JUnit.AuthorizerTest.testAAuthorizer" />
-        <item itemvalue="JUnit.AuthenticationTest.testAuthenbtication" />
+        <item itemvalue="JUnit.JDBCRealmTest" />
+        <item itemvalue="JUnit.JDBCRealmTest.testJDBCRealm" />
+        <item itemvalue="JUnit.IniRealmTest.testAuthorizer" />
       </list>
     </recent_temporary>
   </component>
@@ -289,6 +409,7 @@
       <updated>1565923659818</updated>
       <workItem from="1565923661127" duration="751000" />
       <workItem from="1565929547483" duration="4945000" />
+      <workItem from="1566126581908" duration="6401000" />
     </task>
     <task id="LOCAL-00001" summary="apache shiro;spring security权限管理项目">
       <created>1565924171296</created>
@@ -315,44 +436,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuthenticationTest_testAuthenbtication - 2019.08.16 at 13h 11m 44s.xml">
-      <configuration name="AuthenticationTest.testAuthenbtication" configurationId="JUnit" />
+    <history-entry file="IniRealmTest_testAuthorizer - 2019.08.18 at 20h 36m 25s.xml">
+      <configuration name="IniRealmTest.testAuthorizer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthorizerTest_testAAuthorizer - 2019.08.16 at 13h 20m 14s.xml">
-      <configuration name="AuthorizerTest.testAAuthorizer" configurationId="JUnit" />
+    <history-entry file="IniRealmTest_testAuthorizer - 2019.08.18 at 20h 36m 39s.xml">
+      <configuration name="IniRealmTest.testAuthorizer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthorizerTest_testAAuthorizer - 2019.08.16 at 13h 20m 27s.xml">
-      <configuration name="AuthorizerTest.testAAuthorizer" configurationId="JUnit" />
+    <history-entry file="IniRealmTest_testAuthorizer - 2019.08.18 at 20h 37m 00s.xml">
+      <configuration name="IniRealmTest.testAuthorizer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthorizerTest_testAAuthorizer - 2019.08.16 at 13h 21m 20s.xml">
-      <configuration name="AuthorizerTest.testAAuthorizer" configurationId="JUnit" />
+    <history-entry file="IniRealmTest_testAuthorizer - 2019.08.18 at 20h 37m 03s.xml">
+      <configuration name="IniRealmTest.testAuthorizer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthorizerTest_testAAuthorizer - 2019.08.16 at 13h 21m 32s.xml">
-      <configuration name="AuthorizerTest.testAAuthorizer" configurationId="JUnit" />
+    <history-entry file="IniRealmTest_testAuthorizer - 2019.08.18 at 20h 41m 04s.xml">
+      <configuration name="IniRealmTest.testAuthorizer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthorizerTest_testAAuthorizer - 2019.08.16 at 13h 21m 41s.xml">
-      <configuration name="AuthorizerTest.testAAuthorizer" configurationId="JUnit" />
+    <history-entry file="JDBCRealmTest_testJDBCRealm - 2019.08.18 at 20h 41m 23s.xml">
+      <configuration name="JDBCRealmTest.testJDBCRealm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthorizerTest_testAAuthorizer - 2019.08.16 at 13h 22m 13s.xml">
-      <configuration name="AuthorizerTest.testAAuthorizer" configurationId="JUnit" />
+    <history-entry file="JDBCRealmTest_testJDBCRealm - 2019.08.18 at 20h 46m 10s.xml">
+      <configuration name="JDBCRealmTest.testJDBCRealm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IniRealmTest_testAAuthorizer - 2019.08.16 at 13h 31m 44s.xml">
-      <configuration name="IniRealmTest.testAAuthorizer" configurationId="JUnit" />
+    <history-entry file="JDBCRealmTest_testJDBCRealm - 2019.08.18 at 20h 49m 58s.xml">
+      <configuration name="JDBCRealmTest.testJDBCRealm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IniRealmTest_testAAuthorizer - 2019.08.16 at 13h 32m 00s.xml">
-      <configuration name="IniRealmTest.testAAuthorizer" configurationId="JUnit" />
+    <history-entry file="JDBCRealmTest_testJDBCRealm - 2019.08.18 at 21h 03m 35s.xml">
+      <configuration name="JDBCRealmTest.testJDBCRealm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IniRealmTest - 2019.08.16 at 13h 32m 29s.xml">
-      <configuration name="IniRealmTest" configurationId="JUnit" />
+    <history-entry file="JDBCRealmTest - 2019.08.18 at 21h 05m 18s.xml">
+      <configuration name="JDBCRealmTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5696000" />
+    <option name="totallyTimeSpent" value="12097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23614073" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23880596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -363,7 +485,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.50595886" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39219934" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.42903575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -376,6 +498,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -396,6 +519,11 @@
     <MESSAGE value="修改权限管理项目结构" />
     <MESSAGE value="添加Shiro认证、授权过程代码;添加IniRealm代码" />
     <option name="LAST_COMMIT_MESSAGE" value="添加Shiro认证、授权过程代码;添加IniRealm代码" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_security_test$IniRealmTest.ic" NAME="IniRealmTest Coverage Results" MODIFIED="1566127485240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sam.shirotest.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spring-security-test.iml">
@@ -461,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="31" column="79" lean-forward="true" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/mgt/DefaultSecurityManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -514,50 +635,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/AuthorizerTest.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="2897" column="67" selection-start-line="2897" selection-start-column="53" selection-end-line="2897" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/Apache Shiro笔记">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/authc/UsernamePasswordToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/resources/user.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/IniRealmTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="110" column="58" selection-start-line="110" selection-start-column="58" selection-end-line="110" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/AuthenticationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="51" />
+        <state relative-caret-position="628">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
           <folding>
             <element signature="e#568#569#0" expanded="true" />
             <element signature="e#634#635#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/AuthorizerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/Apache Shiro笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/resources/user.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.19/druid-1.1.19.jar!/com/alibaba/druid/pool/DruidDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/realm/jdbc/JdbcRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="77" column="114" selection-start-line="77" selection-start-column="109" selection-end-line="77" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/JDBCRealmTest02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/IniRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/JDBCRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/resources/datasoure.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>

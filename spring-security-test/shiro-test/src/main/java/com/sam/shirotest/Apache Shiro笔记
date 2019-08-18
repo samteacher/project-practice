@@ -1,3 +1,10 @@
 Shiro自定义Realm两种：
 1.IniRealm
+
+[users111] // 标签名称
+yuqiufu=123456,admin // 用户名称、密码、角色
+[roles] // 角色的权限
+admin=user:delete
+
+
 2.jdbcRealm

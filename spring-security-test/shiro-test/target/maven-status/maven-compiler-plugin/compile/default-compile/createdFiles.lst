@@ -1,2 +1,4 @@
 com\sam\shirotest\AuthenticationTest.class
 com\sam\shirotest\ShiroTestApplication.class
+com\sam\shirotest\AuthorizerTest.class
+com\sam\shirotest\IniRealmTest.class
