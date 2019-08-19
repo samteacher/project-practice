@@ -1,4 +1,4 @@
-package com.sam.shirotest;
+package com.sam.shirotest.test;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;

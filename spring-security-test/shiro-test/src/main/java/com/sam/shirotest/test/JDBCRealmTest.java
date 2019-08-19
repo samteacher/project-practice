@@ -1,4 +1,4 @@
-package com.sam.shirotest;
+package com.sam.shirotest.test;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.apache.shiro.SecurityUtils;

@@ -1,4 +1,4 @@
-package com.sam.shirotest;
+package com.sam.shirotest.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

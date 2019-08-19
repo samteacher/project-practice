@@ -1,51 +1,48 @@
-package com.sam.shirotest;
+package com.sam.shirotest.test;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.realm.SimpleAccountRealm;
 import org.apache.shiro.subject.Subject;
-import org.apache.shiro.mgt.SecurityManager;
 import org.junit.Before;
 import org.junit.Test;
 
 /**
  * 测试类
- * shiro认证过程
- * 通过 Authenticate 进行认证
+ * Shiro授权
+ * 通过 AuthorizerTest 授权器
  */
-public class AuthenticationTest {
+public class AuthorizerTest {
 
     // 定义Realm
     SimpleAccountRealm simpleAccountRealm = new SimpleAccountRealm();
 
     @Before
     public void addUser() {
-        simpleAccountRealm.addAccount("yuqiufu", "123456");
+        simpleAccountRealm.addAccount("yuqiufu", "123456", "admin", "user");
     }
 
     @Test
-    public void testAuthenbtication() {
+    public void testAAuthorizer() {
 
         // 1.构建SecurityManager（会话管理）环境
         DefaultSecurityManager securityManager = new DefaultSecurityManager();
         securityManager.setRealm(simpleAccountRealm);
 
-        // 2.主体提交认证请求
-        // 设置会话环境
+        // 2.主体提交授权请求
         SecurityUtils.setSecurityManager(securityManager);
-        // 获取主体 SecurityUtils获取主体的工具类
         Subject subject = SecurityUtils.getSubject();
 
-        // 认证数据
         UsernamePasswordToken token = new UsernamePasswordToken("yuqiufu", "123456");
 
-        // 登录认证
+        // 登录
         subject.login(token);
         System.out.println("isAuthentcated：" + subject.isAuthenticated());
 
-        // 退出
-        subject.logout();
-        System.out.println("isAuthentcated：" + subject.isAuthenticated());
+        // 检查用户是否有这样的角色
+        subject.checkRoles("admin", "user");
+
     }
+
 }
