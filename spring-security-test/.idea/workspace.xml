@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8002647d-c879-4bcb-afb2-19f304659ba4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/shiro/CustomRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/shiro/CustomRealmTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/AuthenticationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/test/AuthenticationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/AuthorizerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/test/AuthorizerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/IniRealmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/test/IniRealmTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/JDBCRealmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/test/JDBCRealmTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/JDBCRealmTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/test/JDBCRealmTest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/ShiroTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/sam/shirotest/test/ShiroTestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/target/classes/com/sam/shirotest/AuthenticationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/target/classes/com/sam/shirotest/AuthorizerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/target/classes/com/sam/shirotest/IniRealmTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/target/classes/com/sam/shirotest/ShiroTestApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学习内容.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../学习内容.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -364,7 +352,7 @@
       <workItem from="1565929547483" duration="4945000" />
       <workItem from="1566126581908" duration="6881000" />
       <workItem from="1566176439922" duration="143000" />
-      <workItem from="1566188637757" duration="4363000" />
+      <workItem from="1566188637757" duration="4837000" />
     </task>
     <task id="LOCAL-00001" summary="apache shiro;spring security权限管理项目">
       <created>1565924171296</created>
@@ -394,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566133868354</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="自定义Realm">
+      <created>1566193022984</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566193022984</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -430,7 +425,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17083000" />
+    <option name="totallyTimeSpent" value="17557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -481,7 +476,8 @@
     <MESSAGE value="修改权限管理项目结构" />
     <MESSAGE value="添加Shiro认证、授权过程代码;添加IniRealm代码" />
     <MESSAGE value="添加自定义Realm（IniRealm、JDBCRealm）JDBCRealm两种写法" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加自定义Realm（IniRealm、JDBCRealm）JDBCRealm两种写法" />
+    <MESSAGE value="自定义Realm" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义Realm" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/spring_security_test$IniRealmTest.ic" NAME="IniRealmTest Coverage Results" MODIFIED="1566127485240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
