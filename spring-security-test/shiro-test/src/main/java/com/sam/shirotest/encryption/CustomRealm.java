@@ -4,11 +4,13 @@ import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.SimpleAuthenticationInfo;
+import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.crypto.hash.Md5Hash;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.util.ByteSource;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -16,7 +18,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * 加密测试
+ * 加密认证
  *
  * @since 2019-08-20
  */
@@ -24,7 +26,9 @@ public class CustomRealm extends AuthorizingRealm {
 
     Map<String, String> userMap = new HashMap<>(16);
     {
-        userMap.put("yuqiufu", "fcea920f7412b5da7be0cf42b8c93759");
+        // 获取用户名和密码
+        userMap.put("yuqiufu", "0287040c474dbf44cdeb17eebb99d828");
+        // 默认角色
         super.setName("customRealm");
     }
 
@@ -102,6 +106,7 @@ public class CustomRealm extends AuthorizingRealm {
         }
         // 4.
         SimpleAuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(username, password, "customRealm");
+        authenticationInfo.setCredentialsSalt(ByteSource.Util.bytes("admin"));
         return authenticationInfo;
     }
 
@@ -119,7 +124,8 @@ public class CustomRealm extends AuthorizingRealm {
 
     public static void main(String[] args) {
 
-        Md5Hash md5Hash = new Md5Hash("1234567");
+        // 加盐一般使用随机数
+        Md5Hash md5Hash = new Md5Hash("1234567","admin");
         System.out.println(md5Hash.toString());
 
     }

@@ -12,4 +12,4 @@ admin=user:delete
 1.shiro散列配置
     1.1 HashedCredentialsMatcher
     1.2 自定义Realm中使用散列
-    1.3 加盐的使用
+    1.3 加盐的使用（调味的作用）   使用密码更加难以识破 加盐一般使用随机数
