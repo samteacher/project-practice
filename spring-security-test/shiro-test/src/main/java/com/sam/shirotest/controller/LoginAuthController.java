@@ -1,15 +1,13 @@
 package com.sam.shirotest.controller;
 
-import com.alibaba.druid.pool.DruidDataSource;
+import com.sam.shirotest.commen.Response;
 import com.sam.shirotest.utils.AuthenticationUtil;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -18,26 +16,29 @@ import java.util.Map;
 @RestController
 public class LoginAuthController {
 
-    @GetMapping("/get1")
-    public String getString(){
-        return "asdfasdf";
+    @GetMapping("/get")
+    public Response getString(String content) {
+        Response response = new Response();
+        if (content != "" && content != null) {
+            return Response.success(1, content);
+        } else {
+            return Response.error("末知错误");
+        }
     }
 
     @PostMapping("/login")
-    public Map<String, Boolean> testLogin(Map<String, String> map) {
-        Map<String, String> resultMap = new HashMap<>();
-        String username = map.get("username");
-        String password = map.get("password");
+    public Response<Map<String, String>> testLogin(Map<String, String> mapResponse) {
+        Response response = new Response();
+        String username = mapResponse.get("username");
+        String password = mapResponse.get("password");
         UsernamePasswordToken token = new UsernamePasswordToken(username, password);
         boolean flag = AuthenticationUtil.getToken(token);
         System.out.println("isAuthenticated" + flag);
-
         if (flag) {
-//            return resultMap.put("授权成功",flag);
+            return Response.success(1, "授权成功");
         } else {
-//            return resultMap.put("授权失败",flag);
+            return Response.error(-1, "授权失败");
         }
-        return null;
     }
 
 
